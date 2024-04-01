@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Red Hat Text";
+  src: local("Red Hat Text"), url("../font/RedHatText-Bold.ttf") format("TrueType");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-family: "Red Hat Text", sans-serif;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(180deg, #1d1e28 0.12%, #261c2d 94.84%, #261a2d 100%);
+}
+body .wrapper .timer-section .timer-content-wrap {
+  height: 507px;
+  background: linear-gradient(180deg, #1d1e28 0.12%, #261c2d 94.84%, #261a2d 100%);
+}
+body .wrapper .timer-section .timer-content-wrap .timer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  background-image: url("../images/star-pattern.png");
+}
+body .wrapper .timer-section .timer-content-wrap .timer-content .timer-title {
+  margin: 132px 0 104px 0;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 7.5px;
+  text-transform: uppercase;
+}
+body .wrapper .timer-section .timer-content-wrap .timer-content .timer .timer-items-list {
+  display: flex;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  list-style-type: none;
+}
+body .wrapper .timer-section .timer-content-wrap .timer-content .timer .timer-items-list .timer-item .nums-back-img-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 148px;
+  height: 150px;
+  margin-bottom: 16px;
+  background-image: url("../images/timer-nums-background.png");
+  color: #fb5e84;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 71px;
+  letter-spacing: -2.4px;
+}
+body .wrapper .timer-section .timer-content-wrap .timer-content .timer .timer-items-list .timer-item span {
+  display: block;
+  color: #8385a9;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 5.919px;
+  text-transform: uppercase;
+}
+body .wrapper .footer .footer-content-wrap .footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 196px;
+  background-image: url("../images/footer-pattern.png");
+}
+body .wrapper .footer .footer-content-wrap .footer-content .social-link-group {
+  display: flex;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+}
+body .wrapper .footer .footer-content-wrap .footer-content .social-link-group a {
+  padding: 4px;
+}
+body .wrapper .footer .footer-content-wrap .footer-content .social-link-group a:hover svg path {
+  fill: #fb5e84;
+}/*# sourceMappingURL=style.css.map */
