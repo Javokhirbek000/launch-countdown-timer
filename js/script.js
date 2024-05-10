@@ -1,4 +1,4 @@
-const deadline = "2024-04-16";
+const deadline = "2024-05-16";
 
 function getRemainingTime(dl) {
   let time = Date.parse(new Date(dl)) - Date.parse(new Date())
